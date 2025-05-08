@@ -1,7 +1,5 @@
 # Job Application Helper
 
-**Version:** 1.9 (Based on `main.py`)
-
 ## Overview
 
 The Job Application Helper is a desktop application designed to assist users in tailoring their resumes and generating content for job applications. It leverages AI agents (powered by CrewAI and NVIDIA NIM endpoints) to analyze resumes against job descriptions, suggest modifications, and generate relevant text like essay answers.
@@ -91,7 +89,15 @@ The Job Application Helper is a desktop application designed to assist users in 
 
 ## File Structure
 
-job-application-helper/├── .env                  # Stores API keys and environment variables (Needs to be created)├── .env.example          # Example structure for .env├── main.py               # Main application script (Tkinter GUI)├── job_application_agent.py # CrewAI agent setup, tasks, and execution logic├── utils.py              # Utility functions (resume parsing, DOCX formatting)├── config.py             # Configuration loading (API keys via .env)├── requirements.txt      # Python dependencies├── user_data.json        # Stores user profile data (optional use)├── job_app_helper.log    # Log file for application events and errors└── setup.py              # Optional script for packaging (e.g., using py2app)
+job-application-helper/
+├── .env
+├── .env.example
+├── main.py                 # Main application script (Tkinter GUI)
+├── job_application_agent.py # CrewAI agent setup and tasks
+├── utils.py                # Utility functions (resume parsing, etc.)
+├── config.py               # Configuration loading (API keys)
+└── requirements.txt        # Python dependencies
+
 ## Logging
 
 * The application logs information, warnings, and errors to the console and to a file named `job_app_helper.log` in the same directory.
