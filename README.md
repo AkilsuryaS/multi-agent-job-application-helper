@@ -51,7 +51,7 @@ The Job Application Helper is a desktop application designed to assist users in 
 
 5.  **API Key Setup:**
     * You need to create an account ([build.nvidia.com](https://build.nvidia.com/))
-    * You need an API key for the NVIDIA AI endpoints (NIM). You can get the API in this [[NVIDIA_API]([https://example.com]](https://build.nvidia.com/settings/api-keys)
+    * You need an API key for the NVIDIA AI endpoints (NIM). You can get the API in this [Link](https://build.nvidia.com/settings/api-keys)
     * Create a file named `.env` in the project's root directory (the same directory as `main.py`).
     * Add the following line to the `.env` file, replacing `"YOUR_ACTUAL_NVIDIA_API_KEY"` with your actual key:
         ```
