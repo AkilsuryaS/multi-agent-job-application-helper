@@ -89,14 +89,16 @@ The Job Application Helper is a desktop application designed to assist users in 
 
 ## File Structure
 
+```
 job-application-helper/
-├── .env
-├── .env.example
-├── main.py                 # Main application script (Tkinter GUI)
+├── .env                     # Environment variables file
+├── .env.example             # Sample environment configuration
+├── main.py                  # Main application script (Tkinter GUI)
 ├── job_application_agent.py # CrewAI agent setup and tasks
-├── utils.py                # Utility functions (resume parsing, etc.)
-├── config.py               # Configuration loading (API keys)
-└── requirements.txt        # Python dependencies
+├── utils.py                 # Utility functions (resume parsing, etc.)
+├── config.py                # Configuration loading (API keys)
+└── requirements.txt         # Python dependencies
+```
 
 ## Logging
 
