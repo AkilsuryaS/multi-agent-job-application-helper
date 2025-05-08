@@ -1,0 +1,20 @@
+# Core GUI (Tkinter is built-in, Pillow might be needed for future image handling)
+Pillow
+
+# Resume Parsing
+python-docx
+pypdf
+
+# AI Agents
+crewai>=0.30.0 # Ensure a recent version
+crewai-tools
+# Required by CrewAI & NVIDIA integration
+python-dotenv
+langchain-nvidia-ai-endpoints
+
+# Browser Automation for Form Filling
+playwright
+
+# Packaging (Install separately as needed)
+# pyinstaller
+# py2app
